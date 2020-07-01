@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DrawMap - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/DrawMap.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\itship_09\πŸ≈¡ »≠∏È\DrawMap\DrawMap.rc"" 
+Creating temporary file "C:\DOCUME~1\ITSHIP~1\LOCALS~1\Temp\RSP39B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DrawMap.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\itship_09\πŸ≈¡ »≠∏È\DrawMap\DrawMap.cpp"
+"C:\Documents and Settings\itship_09\πŸ≈¡ »≠∏È\DrawMap\DrawMapDlg.cpp"
+"C:\Documents and Settings\itship_09\πŸ≈¡ »≠∏È\DrawMap\LinkedList.cpp"
+"C:\Documents and Settings\itship_09\πŸ≈¡ »≠∏È\DrawMap\MapObject.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ITSHIP~1\LOCALS~1\Temp\RSP39B.tmp" 
+Creating temporary file "C:\DOCUME~1\ITSHIP~1\LOCALS~1\Temp\RSP39C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DrawMap.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\itship_09\πŸ≈¡ »≠∏È\DrawMap\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ITSHIP~1\LOCALS~1\Temp\RSP39C.tmp" 
+Creating temporary file "C:\DOCUME~1\ITSHIP~1\LOCALS~1\Temp\RSP39D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DrawMap.pdb" /debug /machine:I386 /out:"Debug/DrawMap.exe" /pdbtype:sept 
+".\Debug\DrawMap.obj"
+".\Debug\DrawMapDlg.obj"
+".\Debug\LinkedList.obj"
+".\Debug\MapObject.obj"
+".\Debug\StdAfx.obj"
+".\Debug\DrawMap.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ITSHIP~1\LOCALS~1\Temp\RSP39D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DrawMap.cpp
+DrawMapDlg.cpp
+LinkedList.cpp
+MapObject.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/DrawMap.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\DrawMap.sbr" ".\Debug\DrawMapDlg.sbr" ".\Debug\LinkedList.sbr" ".\Debug\MapObject.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DrawMap.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
